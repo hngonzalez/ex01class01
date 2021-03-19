@@ -10,12 +10,10 @@ export class AppComponent {
   title = 'mi-proyecto';
   promEdad = 0;
   sumaEdad = 0;
-
   edadUno:string = '';
   edadDos:string = '';
 
   Calcular() {
- 
     /*console.log(this.edadUno);*/
     if (this.edadUno != '' && this.edadDos != '') {
       this.sumaEdad = parseFloat(this.edadUno) + parseFloat(this.edadDos);
@@ -24,5 +22,10 @@ export class AppComponent {
 
     console.log(this.sumaEdad);
     console.log(this.promEdad);
+  }
+
+  Limpiar(){
+    this.edadUno = '';
+    this.edadDos = '';
   }
 }
