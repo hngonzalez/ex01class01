@@ -11,8 +11,8 @@ export class AppComponent {
   promEdad = 0;
   sumaEdad = 0;
 
-  edadUno: string;
-  edadDos: string;
+  edadUno:string = '';
+  edadDos:string = '';
 
   Calcular() {
  
