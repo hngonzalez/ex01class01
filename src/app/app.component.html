@@ -1,12 +1,5 @@
-<!--<h1>asdasd</h1>
 
-{{title}}
-
-<input type="text" [(ngModel)]="title" name="" id="edadUno">
-<input type="text" [(ngModel)]="title" name="" id="edadDos">
-
-<button (click)=CambiarTitulo() >Cambiar el Titulo</button>-->
-
+<!--SECCION EJERCICIO 1-->
 <label for="edadUno">Edad 1:</label>
 <input type="text" [(ngModel)]='edadUno' name="" id="edadUno">
 <br>
@@ -22,13 +15,7 @@
 <h5>Suma:</h5><input type="text" [(ngModel)]="sumaEdad" name="" id="edadDosMostrar">
 
 
-<!--
-    botones "calcular" y "limpiar cuadros de textos"
-2-( componentes nuevos) Realizar:
-la clase usuario con nombre y clave ,
-el componente "Bienvenido"
-el componente "login"
-el componente "error"
-( dejar los componentes listos)
-opcional: hacer ruteo
--->
+<!--SECCION EJERCICIO 2-->
+<app-bienvenido></app-bienvenido>
+<app-login></app-login>
+<app-error></app-error>
